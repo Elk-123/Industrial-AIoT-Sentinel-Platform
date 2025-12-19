@@ -1,0 +1,35 @@
+# --- Python 基础 ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- 虚拟环境 (如果不小心建在项目里) ---
+venv/
+env/
+.venv/
+.env
+
+# --- IDE 编辑器配置 ---
+.idea/
+.vscode/
+*.swp
+
+# --- Django ---
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# --- 媒体文件 (AI 报警图片不提交) ---
+backend/media/
+# 但是保留 media 文件夹本身（通过保留一个空文件）
+!backend/media/.gitkeep
+
+# --- 操作系统垃圾 ---
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+# 如果你用了本地目录映射数据库，必须忽略
+postgres_data/
