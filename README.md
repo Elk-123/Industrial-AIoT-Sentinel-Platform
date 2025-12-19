@@ -2,7 +2,7 @@
 
 # 🏭 Industrial AIoT Sentinel Platform
 
-**English** | [简体中文](REDME_CN.md)
+**English** | [简体中文](README_CN.md)
 
 </div>
 
